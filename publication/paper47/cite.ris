@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Messaoud, Montassar Ben
+AU  - Chekaya, Rania Ben
+AU  - Mkaouer, Mohamed Wiem
+AU  - Jenhani, Ilyes
+AU  - Aljedaani, Wajdi
+PY  - 2024
+DA  - 2024/07/01
+TI  - PR-DupliChecker: detecting duplicate pull requests in Fork-based workflows
+JO  - International Journal of System Assurance Engineering and Management
+SP  - 3538
+EP  - 3550
+VL  - 15
+IS  - 7
+AB  - Pull requests (PR) are a fundamental aspect of collaborative software development, allowing developers to propose changes to a codebase hosted on platforms like GitHub. They serve as a mechanism for peer review, enabling team members to assess the proposed changes before merging them into the main code repository. Duplicate pull requests occur when multiple contributors submit similar or identical proposed changes to a code repository. Such duplicate pull requests can be problematic because they create redundancy, waste developers’ time, and complicate the review process. In this paper, we propose an approach which is based on a pre-trained language model, namely BERT (Bidirectional Encoder Representations from Transformers) to automatically detect duplicate PRs in GitHub repositories. A dataset of 3328 labeled PRs collected from 26 GitHub repositories is built. This data is then fed to a BERT model in order to get the embeddings which represent the contextual relationships between the words used in pairs of pull requests. Then, the BERT’s classification outputs are fed to a Multilayer Perceptron (MLP) classifier which represents our final duplicate pull requests detector. Experiments have shown that BERT provided good performance and achieved an accuracy of 92% with MLP classifier. Results have proven that BERT’s word representation features achieved an increase of 13% (resp., 17 and 23%) compared to Siamese-BERT model (resp., DC-CNN and Word2Vec) in term of accuracy.
+SN  - 0976-4348
+UR  - https://doi.org/10.1007/s13198-024-02361-4
+DO  - 10.1007/s13198-024-02361-4
+ID  - Messaoud2024
+ER  - 
